@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Julien Camara — Développeur & Technicien IT</title>
+  <meta name="description" content="Portfolio de Julien Camara, développeur Laravel / React Native / Node.js et technicien IT à Conakry, Guinée.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#accueil" class="logo">JC<span>.</span></a>
+      <nav class="nav__links" id="menu">
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Changer de thème">◐</button>
+        <button class="icon-btn nav__burger" id="burger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ACCUEIL -->
+    <section id="accueil" class="hero container">
+      <p class="eyebrow">Bonjour, je suis</p>
+      <h1>Julien Camara</h1>
+      <p class="hero__role">Développeur Web & Mobile <span>·</span> Technicien IT</p>
+      <p class="hero__pitch">
+        Je conçois des plateformes web de gestion pour des acteurs publics et privés en Guinée
+        (logistique, hydrocarbures, déchets, information commerciale). Je crée aussi mes propres produits :
+        applications <strong>React</strong> et <strong>React Native</strong> avec un backend <strong>Node.js</strong>,
+        et paiement mobile (Orange Money, MoMo, PayCard). Je m'occupe aussi du parc informatique.
+      </p>
+      <div class="hero__cta">
+        <a href="#projets" class="btn btn--primary">Voir mes projets</a>
+        <a href="assets/Julien_Camara_CV.pdf" class="btn" download>Télécharger mon CV</a>
+      </div>
+      <ul class="hero__stats">
+        <li><strong>3+</strong><span>ans chez Global-Itec</span></li>
+        <li><strong>10+</strong><span>plateformes et applications</span></li>
+        <li><strong>Conakry</strong><span>Guinée</span></li>
+      </ul>
+    </section>
+
+    <!-- À PROPOS -->
+    <section id="apropos" class="section container">
+      <h2 class="section__title"><span>01</span> À propos</h2>
+      <div class="about">
+        <div class="about__text">
+          <p>
+            Diplômé d'une <strong>Licence MIAGE</strong> (mention Bien) de l'Université de Labé, j'ai rejoint
+            <strong>Global-Itec</strong> en 2023 comme stagiaire en développement Laravel, puis j'ai été recruté
+            en CDD et enfin en CDI.
+          </p>
+          <p>
+            Aujourd'hui, je mets en place le socle technique de nouvelles plateformes, je prends en main
+            des applications existantes et j'accompagne les utilisateurs au quotidien. Depuis août 2026,
+            j'assure aussi la maintenance du parc informatique : postes, réseau et périphériques.
+          </p>
+          <p>
+            Ce qui me motive : apprendre en continu et livrer un code propre, lisible et utile.
+          </p>
+        </div>
+        <aside class="card about__facts">
+          <h3>En bref</h3>
+          <dl>
+            <dt>Qualités</dt><dd>Courageux, honnête, anticipateur, respectueux</dd>
+            <dt>Langues</dt><dd>Français (excellent), Guerzé (maternelle), Anglais (élémentaire)</dd>
+            <dt>Intérêts</dt><dd>Découvertes, football</dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section id="competences" class="section container">
+      <h2 class="section__title"><span>02</span> Compétences</h2>
+      <div class="skills">
+        <div class="card">
+          <h3>Back-end</h3>
+          <ul class="tags">
+            <li>PHP</li><li>Laravel</li><li>Node.js</li><li>Express</li><li>API REST</li><li>Procédures stockées</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Front-end</h3>
+          <ul class="tags">
+            <li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>HTML / CSS</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Mobile & paiement</h3>
+          <ul class="tags">
+            <li>React Native</li><li>Expo</li><li>Djomy (agrégateur)</li><li>Orange Money</li><li>MTN MoMo</li><li>PayCard</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Données & stockage</h3>
+          <ul class="tags">
+            <li>MySQL</li><li>SQLite3</li><li>Supabase</li><li>MinIO / S3</li><li>Conception de BDD</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Outils & méthodes</h3>
+          <ul class="tags">
+            <li>Git / GitHub</li><li>CI/CD</li><li>pre-commit</li><li>Clean code</li><li>Jira / Scrum</li><li>IA générative</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Support & infrastructure</h3>
+          <ul class="tags">
+            <li>Maintenance du parc</li><li>Réseau</li><li>Diagnostic de pannes</li><li>Support utilisateurs</li><li>Sécurité de base</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Bureautique & graphisme</h3>
+          <ul class="tags">
+            <li>Word</li><li>Excel</li><li>PowerPoint</li><li>Access</li><li>Photoshop</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projets" class="section container">
+      <h2 class="section__title"><span>03</span> Projets</h2>
+
+      <h3 class="sub">Mes produits et projets freelance</h3>
+      <div class="featured">
+        <article class="feature card">
+          <div class="feature__media feature__media--web">
+            <img src="assets/img/edulink-import.webp" alt="Edulink : écran d'import des élèves depuis Excel" loading="lazy">
+          </div>
+          <div class="feature__body">
+            <div class="project__head"><span class="project__tag">Application web · en ligne</span></div>
+            <h3>Edulink</h3>
+            <p class="project__sub">Plateforme de gestion scolaire</p>
+            <p>Une application React pour gérer une école : inscriptions, élèves et enseignants, paiements et comptabilité, abonnements. On peut importer les élèves depuis un modèle Excel généré par classe, avec un aperçu avant de valider.</p>
+            <ul class="tags tags--sm"><li>React</li><li>TypeScript</li><li>Supabase</li></ul>
+            <a class="feature__link" href="https://edulinkguinee.com" target="_blank" rel="noopener">edulinkguinee.com ↗</a>
+          </div>
+        </article>
+
+        <article class="feature card">
+          <div class="feature__media feature__media--phones">
+            <img src="assets/img/edulinkbaby-accueil.webp" alt="Edulink Baby : écran d'accueil" loading="lazy">
+            <img src="assets/img/edulinkbaby-parcours.webp" alt="Edulink Baby : choix du parcours" loading="lazy">
+            <img src="assets/img/edulinkbaby-syllabes.webp" alt="Edulink Baby : choix des syllabes" loading="lazy">
+          </div>
+          <div class="feature__body">
+            <div class="project__head"><span class="project__tag">Application mobile</span></div>
+            <h3>Edulink Baby</h3>
+            <p class="project__sub">Apprendre à lire, compter et chanter</p>
+            <p>Une application React Native pour les enfants : alphabet, syllabes, sons complexes, chiffres, jeux et récitations, avec la prononciation à voix haute. Elle communique avec un backend Node.js qui gère les comptes, les abonnements et le paiement mobile via l'agrégateur <strong>Djomy</strong> (Orange Money, MoMo, PayCard).</p>
+            <ul class="tags tags--sm"><li>React Native</li><li>Expo</li><li>Node.js</li><li>Djomy</li></ul>
+          </div>
+        </article>
+
+        <article class="feature card">
+          <div class="feature__media feature__media--logo">
+            <img src="assets/img/safe-logo.png" alt="Logo de l'application Safe" loading="lazy">
+          </div>
+          <div class="feature__body">
+            <div class="project__head"><span class="project__tag">Application mobile · en cours</span></div>
+            <h3>Safe</h3>
+            <p class="project__sub">Gestion de la sécurité</p>
+            <p>Une application mobile d'alerte pour les personnes en danger : bouton SOS ou mot-clé vocal secret, envoi de la position, suivi en temps réel, échanges avec les forces de l'ordre. Elle communique avec un backend Node.js. Pas encore déployée.</p>
+            <ul class="tags tags--sm"><li>React Native</li><li>TypeScript</li><li>Node.js</li></ul>
+          </div>
+        </article>
+
+        <article class="feature card">
+          <div class="feature__media feature__media--web">
+            <img src="assets/img/cimsgs.webp" alt="Image à la une du site CIMSGS SARL" loading="lazy">
+          </div>
+          <div class="feature__body">
+            <div class="project__head"><span class="project__tag">Site vitrine · en ligne</span><span class="project__year">2025</span></div>
+            <h3>CIMSGS SARL</h3>
+            <p class="project__sub">Site vitrine d'une société minière</p>
+            <p>Un site vitrine avec un espace d'administration : la société y publie elle-même ses projets, ses réalisations et ses activités, sans passer par un développeur.</p>
+            <ul class="tags tags--sm"><li>Laravel</li><li>PHP</li><li>MySQL</li></ul>
+            <a class="feature__link" href="https://cimsgsarl.com/" target="_blank" rel="noopener">cimsgsarl.com ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="sub">En entreprise et autres réalisations</h3>
+      <div class="filters" role="tablist">
+        <button class="filter is-active" data-filter="all">Tous</button>
+        <button class="filter" data-filter="logistique">Logistique</button>
+        <button class="filter" data-filter="gestion">Gestion</button>
+        <button class="filter" data-filter="outil">Outils & API</button>
+      </div>
+
+      <div class="projects">
+        <article class="project card" data-cat="logistique">
+          <div class="project__head"><span class="project__tag">Socle technique</span><span class="project__year">2025 – auj.</span></div>
+          <h3>ILS</h3>
+          <p class="project__sub">Plateforme de gestion des livraisons de colis</p>
+          <p>J'ai mis en place le socle technique de la plateforme (architecture, structure du projet) et je participe à son développement. J'accompagne aussi ses utilisateurs.</p>
+          <ul class="tags tags--sm"><li>Laravel</li><li>MySQL</li><li>JavaScript</li></ul>
+        </article>
+
+        <article class="project card" data-cat="gestion">
+          <div class="project__head"><span class="project__tag">Développement</span><span class="project__year">2025 – auj.</span></div>
+          <h3>FODIP_GI</h3>
+          <p class="project__sub">Plateforme Laravel</p>
+          <p>Je participe au développement de la plateforme, en particulier à la gestion des téléversements de fichiers vers un stockage objet compatible S3 (MinIO).</p>
+          <ul class="tags tags--sm"><li>Laravel</li><li>MinIO / S3</li></ul>
+          <a class="project__link" href="https://dev-fodip.global-itec.com/" target="_blank" rel="noopener">Voir la plateforme ↗</a>
+        </article>
+
+        <article class="project card" data-cat="logistique">
+          <div class="project__head"><span class="project__tag">Reprise & support</span><span class="project__year">2025 – auj.</span></div>
+          <h3>UMS</h3>
+          <p class="project__sub">Gestion des commandes et livraisons d'hydrocarbures</p>
+          <p>J'ai pris en main la plateforme existante, je la maintiens et je forme et accompagne ses utilisateurs. Elle est installée en local chez le client.</p>
+          <ul class="tags tags--sm"><li>Laravel</li><li>Support</li><li>Installation sur site</li></ul>
+        </article>
+
+        <article class="project card" data-cat="gestion">
+          <div class="project__head"><span class="project__tag">Optimisation front</span><span class="project__year">2025</span></div>
+          <h3>Kakoulima</h3>
+          <p class="project__sub">Plateforme de gestion des déchets</p>
+          <p>J'ai appuyé l'équipe en optimisant le CSS et le JavaScript de la plateforme, et je suis les agents de terrain dans leur utilisation de l'outil.</p>
+          <ul class="tags tags--sm"><li>CSS</li><li>JavaScript</li></ul>
+        </article>
+
+        <article class="project card" data-cat="gestion">
+          <div class="project__head"><span class="project__tag">Développement</span><span class="project__year">2023 – 2025</span></div>
+          <h3>PICG</h3>
+          <p class="project__sub">Plateforme d'Information Commerciale de Guinée</p>
+          <p>J'ai participé au développement de cette plateforme pendant mon stage, puis je l'ai prise en main : revue de code, conception de la base de données, optimisation des procédures stockées dynamiques.</p>
+          <ul class="tags tags--sm"><li>Laravel</li><li>MySQL</li><li>Procédures stockées</li></ul>
+        </article>
+
+        <article class="project card" data-cat="logistique">
+          <div class="project__head"><span class="project__tag">Maintenance</span><span class="project__year">2024 – auj.</span></div>
+          <h3>LaPosteGN</h3>
+          <p class="project__sub">Gestion de la livraison des colis postaux</p>
+          <p>J'assure la maintenance et l'évolution de la plateforme et j'accompagne ses utilisateurs.</p>
+          <ul class="tags tags--sm"><li>Laravel</li></ul>
+          <a class="project__link" href="https://operations.laposte.gn/" target="_blank" rel="noopener">Voir la plateforme ↗</a>
+        </article>
+
+        <article class="project card" data-cat="gestion">
+          <div class="project__head"><span class="project__tag">Maintenance</span><span class="project__year">2024 – 2025</span></div>
+          <h3>EOIL</h3>
+          <p class="project__sub">Gestion des stations-service</p>
+          <p>J'ai pris en main la plateforme et assuré sa maintenance pendant mon CDD. Elle est installée en local chez le client.</p>
+          <ul class="tags tags--sm"><li>Laravel</li><li>Installation sur site</li></ul>
+        </article>
+
+        <article class="project card" data-cat="outil">
+          <div class="project__head"><span class="project__tag">Bibliothèque interne</span><span class="project__year">2025</span></div>
+          <h3>Modules de validation JS</h3>
+          <p class="project__sub">Réutilisables sur toutes les plateformes Global-Itec</p>
+          <p>J'ai proposé des modules JavaScript communs de validation des données pour harmoniser les contrôles de saisie d'une plateforme à l'autre.</p>
+          <ul class="tags tags--sm"><li>JavaScript</li></ul>
+        </article>
+
+        <article class="project card" data-cat="outil">
+          <div class="project__head"><span class="project__tag">API</span><span class="project__year">—</span></div>
+          <h3>API Node.js</h3>
+          <p class="project__sub">Développement et intégration d'API</p>
+          <p>Conception et développement d'une API REST avec Node.js.</p>
+          <ul class="tags tags--sm"><li>Node.js</li><li>API REST</li></ul>
+        </article>
+
+        <article class="project card" data-cat="outil">
+          <div class="project__head"><span class="project__tag">Outil</span><span class="project__year">2023</span></div>
+          <h3>Générateur de code de base</h3>
+          <p class="project__sub">Scaffolding</p>
+          <p>Un outil qui génère automatiquement la structure de base d'un projet, pour démarrer plus vite et partir d'une base homogène.</p>
+          <ul class="tags tags--sm"><li>Scaffolding</li><li>Automatisation</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PARCOURS -->
+    <section id="parcours" class="section container">
+      <h2 class="section__title"><span>04</span> Parcours</h2>
+      <div class="timeline-grid">
+        <div>
+          <h3 class="sub">Expérience</h3>
+          <ol class="timeline">
+            <li>
+              <span class="timeline__date">Août 2026 – aujourd'hui</span>
+              <h4>Technicien IT (maintenance informatique) · Global-Itec</h4>
+              <p>Maintenance du parc (postes, réseau, périphériques), diagnostic et résolution des pannes matérielles et logicielles, support aux utilisateurs.</p>
+            </li>
+            <li>
+              <span class="timeline__date">Mai 2025 – aujourd'hui</span>
+              <h4>Développeur (CDI) · Global-Itec</h4>
+              <p>Socle de la plateforme ILS, FODIP_GI, reprise d'UMS, optimisation front de Kakoulima, modules de validation JS.</p>
+            </li>
+            <li>
+              <span class="timeline__date">Avr. 2024 – Avr. 2025</span>
+              <h4>Développeur (CDD) · Global-Itec</h4>
+              <p>Prise en main de PICG, EOIL et LaPosteGN (Laravel).</p>
+            </li>
+            <li>
+              <span class="timeline__date">Oct. 2023 – Mars 2024</span>
+              <h4>Stagiaire développeur Laravel · Global-Itec</h4>
+              <p>Architecture Laravel, conception de BDD, procédures stockées dynamiques, revue de code sur PICG.</p>
+            </li>
+          </ol>
+        </div>
+        <div>
+          <h3 class="sub">Formation</h3>
+          <ol class="timeline">
+            <li>
+              <span class="timeline__date">2019 – 2022</span>
+              <h4>Licence fondamentale MIAGE · Université de Labé</h4>
+              <p>Faculté des Sciences et Techniques : comptabilité, administration réseaux, gestion de bases de données. Mention Bien.</p>
+            </li>
+            <li>
+              <span class="timeline__date">2019</span>
+              <h4>Baccalauréat unique, série SM · Lycée « La Grâce », Conakry</h4>
+              <p>Mention Assez-Bien.</p>
+            </li>
+          </ol>
+
+          <h3 class="sub">Ateliers</h3>
+          <ol class="timeline">
+            <li><span class="timeline__date">Mai 2026</span><h4>pre-commit & clean code</h4><p>Hooks de linting et de formatage, principes du clean code.</p></li>
+            <li><span class="timeline__date">2025</span><h4>React (TypeScript) & Next.js</h4><p>Rendu côté serveur, gestion d'état.</p></li>
+            <li><span class="timeline__date">2025</span><h4>Jira & Scrum</h4><p>Suivi et priorisation des tâches.</p></li>
+            <li><span class="timeline__date">2025</span><h4>Git & GitHub</h4><p>Versionnement, conflits, collaboration, CI/CD.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <div class="contact card">
+        <h2>Travaillons ensemble</h2>
+        <p>Vous avez un poste, une mission ou un projet ? Écrivez-moi.</p>
+        <div class="contact__links">
+          <a class="btn btn--primary" href="mailto:juliencamara9@gmail.com">juliencamara9@gmail.com</a>
+          <a class="btn" href="tel:+224624414843">+224 624 41 48 43</a>
+          <a class="btn" href="assets/Julien_Camara_CV.pdf" download>Télécharger mon CV (PDF)</a>
+        </div>
+        <div class="contact__links">
+          <a class="btn" href="https://www.linkedin.com/in/julien-camara-b9008624a" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn" href="https://github.com/Julien-Camara" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+        <p class="muted">Conakry, Guinée</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© <span id="year"></span> Julien Camara</p>
+    <nav class="footer__links">
+      <a href="https://www.linkedin.com/in/julien-camara-b9008624a" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Julien-Camara" target="_blank" rel="noopener">GitHub</a>
+      <a href="#accueil">Haut ↑</a>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
